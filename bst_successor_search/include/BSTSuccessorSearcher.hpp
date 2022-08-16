@@ -31,13 +31,15 @@ public:
 
     void insert(int key);
     void print() const;
-    BSTNode findInorderSuccessor(int key) const;
+    bool contains(int key) const;
+    std::shared_ptr<BSTNode> findInorderSuccessor(int key) const;
 
 private:
     std::shared_ptr<BSTNode> _root;
 
     static void insert(std::shared_ptr<BSTNode> after, int key);
     static void print(std::shared_ptr<BSTNode> after);
+    static bool exists(std::shared_ptr<BSTNode> after, int key);
 };
 
 #endif  // INCLUDE_BSTSUCCESSORSEARCHER_HPP

@@ -145,3 +145,38 @@ void BST::print() const
 {
     BST::print(_root);
 }
+
+bool BST::exists(std::shared_ptr<BSTNode> after, int key)  // static
+{
+    if (after->getKey() == key)
+    {
+        return true;
+    }
+    else if (key < after->getKey())
+    {
+        if (!after->getLeft())
+        {
+            return false;
+        }
+        else
+        {
+            return BST::exists(after->getLeft(), key);
+        }
+    }
+    else  // key > after->getKey()
+    {
+        if (!after->getRight())
+        {
+            return false;
+        }
+        else
+        {
+            return BST::exists(after->getRight(), key);
+        }
+    }
+}
+
+bool BST::contains(int key) const
+{
+    return BST::exists(_root, key);
+}
