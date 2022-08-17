@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <memory>
+#include <limits>
 
 class BSTNode
 {
@@ -32,7 +33,7 @@ public:
     void insert(int key);
     void print() const;
     bool contains(int key) const;
-    std::shared_ptr<BSTNode> findInorderSuccessor(int key) const;
+    int findInorderSuccessor(int key) const;
 
 private:
     std::shared_ptr<BSTNode> _root;
@@ -40,6 +41,8 @@ private:
     static void insert(std::shared_ptr<BSTNode> after, int key);
     static void print(std::shared_ptr<BSTNode> after);
     static bool exists(std::shared_ptr<BSTNode> after, int key);
+    static int findInorderSuccessor(std::shared_ptr<BSTNode> after, 
+        int key, int minNode = std::numeric_limits<int>::max());
 };
 
 #endif  // INCLUDE_BSTSUCCESSORSEARCHER_HPP

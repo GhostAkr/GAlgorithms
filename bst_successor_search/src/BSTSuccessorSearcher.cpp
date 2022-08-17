@@ -180,3 +180,33 @@ bool BST::contains(int key) const
 {
     return BST::exists(_root, key);
 }
+
+int BST::findInorderSuccessor(  // static
+    std::shared_ptr<BSTNode> after, 
+    int key,
+    int minNode
+){
+    int currKey = after->getKey();
+    if (currKey <= key)
+    {
+        if (!after->getRight())
+        {
+            return minNode;
+        }
+        return BST::findInorderSuccessor(after->getRight(), key, minNode);
+    }
+    else
+    {
+        minNode = currKey < minNode ? currKey : minNode;
+        if (!after->getLeft())
+        {
+            return minNode;
+        }
+        return BST::findInorderSuccessor(after->getLeft(), key, minNode);
+    }
+}
+
+int BST::findInorderSuccessor(int key) const
+{
+    return BST::findInorderSuccessor(_root, key);
+}
