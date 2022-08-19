@@ -12,5 +12,7 @@ algorithms are implemented for fun and are not pretended to be 100% effcient and
   in Python);
 - ``inverse_matr`` — set of algorihtms calculating inverse matrices:
   - ``ExplicitInverse3x3.jl`` — calculation of inverse 3x3 matrix via hardcoded formulas;
+- ``sudoku_validator`` — Sudoku field validator. Validates given Sudoku field according to
+  known Sudoku rules. Note: to enter empty cell in a field use '0'.  
 - ``merge_sort.py`` — 'Merge' sort implemented in Python;
 - ``quick_sort.py`` — 'Quick' sort implemented in Python.
