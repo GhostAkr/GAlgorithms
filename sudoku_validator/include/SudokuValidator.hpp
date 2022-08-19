@@ -1,0 +1,4 @@
+#ifndef SUDOKUVALIDATOR_HPP
+#define SUDOKUVALIDATOR_HPP
+
+#endif
