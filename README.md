@@ -7,17 +7,17 @@ algorithms are implemented for fun and are not pretended to be 100% effcient and
 ## Repo contents
 
 ### Algorithms
-- ``bst_successor_search`` — algorithm searching for an inorder successor of given node. 
+- ``[C++] bst_successor_search`` — algorithm searching for an inorder successor of given node. 
   Inorder successor of the given node is the node with the smallest key greater then the
   key of the input node.
-- ``file_max_word`` — algorithm searching for the longest word in a text file (implemented 
+- ``[PY] file_max_word`` — algorithm searching for the longest word in a text file (implemented 
   in Python);
-- ``inverse_matr`` — set of algorihtms calculating inverse matrices:
+- ``[JL] inverse_matr`` — set of algorihtms calculating inverse matrices:
   - ``ExplicitInverse3x3.jl`` — calculation of inverse 3x3 matrix via hardcoded formulas;
-- ``sudoku_validator`` — Sudoku field validator. Validates given Sudoku field according to
+- ``[C++] sudoku_validator`` — Sudoku field validator. Validates given Sudoku field according to
   known Sudoku rules. Note: to enter empty cell in a field use '0'.  
-- ``merge_sort.py`` — 'Merge' sort implemented in Python;
-- ``quick_sort.py`` — 'Quick' sort implemented in Python.
+- ``[PY] merge_sort`` — 'Merge' sort implemented in Python;
+- ``[PY] quick_sort`` — 'Quick' sort implemented in Python.
 
 ### Tools
 - ``[C++] NonCopyable`` – implementation of non-copyable idiom in C++.
