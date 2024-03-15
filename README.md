@@ -1,7 +1,7 @@
 # GAlgorithms
 
 ## Brief repo description
-Here are some useful algorithms implemented in different programming languages. These 
+Here are some useful algorithms and tools implemented in different programming languages. These 
 algorithms are implemented for fun and are not pretended to be 100% effcient and correct.
 
 ## Repo contents
@@ -18,3 +18,6 @@ algorithms are implemented for fun and are not pretended to be 100% effcient and
   known Sudoku rules. Note: to enter empty cell in a field use '0'.  
 - ``merge_sort.py`` — 'Merge' sort implemented in Python;
 - ``quick_sort.py`` — 'Quick' sort implemented in Python.
+
+### Tools
+- ``[C++] NonCopyable`` – implementation of non-copyable idiom in C++.
