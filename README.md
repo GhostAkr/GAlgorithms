@@ -5,6 +5,8 @@ Here are some useful algorithms implemented in different programming languages. 
 algorithms are implemented for fun and are not pretended to be 100% effcient and correct.
 
 ## Repo contents
+
+### Algorithms
 - ``bst_successor_search`` — algorithm searching for an inorder successor of given node. 
   Inorder successor of the given node is the node with the smallest key greater then the
   key of the input node.
