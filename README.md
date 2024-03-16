@@ -17,7 +17,8 @@ algorithms are implemented for fun and are not pretended to be 100% effcient and
 - ``[C++] sudoku_validator`` — Sudoku field validator. Validates given Sudoku field according to
   known Sudoku rules. Note: to enter empty cell in a field use '0'.  
 - ``[PY] merge_sort`` — 'Merge' sort implemented in Python;
-- ``[PY] quick_sort`` — 'Quick' sort implemented in Python.
+- ``[PY] quick_sort`` — 'Quick' sort implemented in Python;
+- ``[C++] copy_and_swap`` – implementation of copy-and-swap idiom in C++.
 
 ### Tools
 - ``[C++] NonCopyable`` – implementation of non-copyable idiom in C++.
