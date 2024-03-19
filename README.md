@@ -24,3 +24,5 @@ algorithms are implemented for fun and are not pretended to be 100% effcient and
 - ``[C++] NonCopyable`` – implementation of non-copyable idiom in C++.
 - ``[C++] vector_remove`` – implementation of erase-remove idiom in C++ applied to
   ``std::vector``.
+- ``[C++] CowPtr`` – implementation of copy-on-write (copy-on-non-const to be more presice) 
+  idiom in C++.
