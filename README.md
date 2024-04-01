@@ -22,7 +22,8 @@ algorithms are implemented for fun and are not pretended to be 100% effcient and
 
 ### Patterns
 - ``[C++] decorator`` – implementation of decorator pattern in C++.
-- ``[C++] singleton`` – implementation of singleton patter in C++.
+- ``[C++] singleton`` – implementation of singleton pattern in C++.
+- ``[C++] factory`` – implementation of factory pattern in C++.
 
 ### Tools
 - ``[C++] NonCopyable`` – implementation of non-copyable idiom in C++.
