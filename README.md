@@ -19,6 +19,7 @@ algorithms are implemented for fun and are not pretended to be 100% effcient and
 - ``[PY] merge_sort`` — "Merge" sort implemented in Python;
 - ``[PY] quick_sort`` — "Quick" sort implemented in Python;
 - ``[C++] copy_and_swap`` – implementation of copy-and-swap idiom in C++.
+- ``[C++] split_str_view`` – splitting string to words in C++ via ``std::string_view``.
 
 ### Patterns
 - ``[C++] decorator`` – implementation of decorator pattern in C++.
